@@ -1,0 +1,42 @@
+@import "bootstrap/scss/bootstrap";
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+section{
+  width: 70%;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button01 {
+  width: 100px;
+  display: inline-block;
+  background: linear-gradient(to right, #00bfff 0%, #7fffd4 45%, #f6ff79 100%);
+  background-size: 200% auto;  
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 22px;
+  text-decoration: none;
+  font-size: 1em;
+  transition: .5s;
+  }
+  .button01:hover {
+    color: #ffffff;
+    background-position: right center;
+  }
+
+  .a-bukatsu {
+    text-decoration: none;
+    color: #000000;
+  }
+.NavSign{
+    display: flex;
+    padding-right: 20px;
+}
+
+.NavName{
+    margin-top: auto;
+    margin-bottom: auto;
+}
