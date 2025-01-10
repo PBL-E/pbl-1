@@ -16,19 +16,19 @@ function App() {
        <ThreeSample />
     </div>
     <section>
-      <h1>技術系</h1>
+      <h1>技術系<span className='main-span'>technology</span></h1>
       <TechnologyAccordion />
     </section>
     <section>
-      <h1>体育系</h1>
+      <h1>体育系<span className='main-span'>physical education</span></h1>
       <PEAccordion />
     </section>
     <section>
-      <h1>文化系</h1>
+      <h1>文化系<span className='main-span'>cultural</span></h1>
       <CultureAccordion />
     </section>
     <section>
-      <h1>その他</h1>
+      <h1>その他<span className='main-span'>others</span></h1>
       <OtherAccordion />
     </section>
     </>
